@@ -10,7 +10,6 @@ struct ThreadTask
 {
 	ThreadTaskPriority priority;
 	std::function<void()> function;
-
 };
 
 typedef std::vector<ThreadTask> ThreadTaskVector;
